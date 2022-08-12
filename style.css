@@ -1,0 +1,57 @@
+
+body {
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 20px;
+}
+    
+button {
+    background-color: crimson;
+    border-radius: 15px;
+    color: white;
+    display: block;
+    padding: 15px 25px;
+    margin: 20px auto;
+    border: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+   }
+
+.popup-wrapper{
+    background-color: rgba(255,255,255,0.5);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.popup {
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+    margin: 100px auto;
+    padding: 10px 20px 20px 20px;
+    text-align: center;
+    position: relative;
+}
+ .popup > a {
+    background-color: crimson;
+    border-radius: 15px;
+    box-shadow: 6px 6px 12px #b2b8c9, -6px -6px 12px #f0f8ff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    cursor: pointer;
+   
+ }
+ .closeX {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right:25px;
+    cursor: pointer;
+
+ }
